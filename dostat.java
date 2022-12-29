@@ -4,11 +4,13 @@ class dostat{
         
         Scanner x=new Scanner(System.in);
         int y=x.nextInt();
-        int z=y%2
+        
 
         do{
+            int z=y%2;
             System.out.println(z);
-        }while(z==0);
+            y--;
+        }while(y>=0);
         
     }
 }
