@@ -1,6 +1,6 @@
 import java.util.Scanner;
 class dostat{
-    public static void main(Sring arg[]){
+    public static void main(String arg[]){
         
         Scanner x=new Scanner(System.in);
         int y=x.nextInt();
