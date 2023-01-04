@@ -3,8 +3,9 @@ class dostat{
     public static void main(String arg[]){
         
         Scanner x=new Scanner(System.in);
+        System.out.println("enter y");
         int y=x.nextInt();
-        
+        System.out.flush();
 
         do{
             int z=y%2;
