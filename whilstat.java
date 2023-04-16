@@ -1,4 +1,4 @@
-class while{
+class whilestat{
     public static void main(String args[]){
         int x=2;
         while(x<=50){
