@@ -4,6 +4,8 @@ class test2{
 	{
 		Scanner x=new Scanner(System.in);
 		Scanner y=new Scanner(System.in);
+		x.close();
+		y.close();
 		System.out.println("enter x & y ");
 		System.out.print("x+y= " + (x.nextInt()+y.nextInt()));
 	}

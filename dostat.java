@@ -5,6 +5,7 @@ class dostat{
         Scanner x=new Scanner(System.in);
         System.out.println("enter y");
         int y=x.nextInt();
+        x.close();
         System.out.flush();
 
         do{

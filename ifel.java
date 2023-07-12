@@ -5,6 +5,7 @@ class ifel{
 		String z,y="saga";
 		Scanner x=new Scanner(System.in);
 		z=x.nextLine();
+		x.close();
 		if(z.equals(y)){
 			System.out.println("correct");
 		}

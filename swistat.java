@@ -3,7 +3,8 @@ class swistat{
     public static void main(String args[]){
         Scanner x=new Scanner(System.in);
         System.out.println("enter train class");
-        char y=x.next().charAt(0); // to read the given character with index 0
+        String y=x.nextLine(); // to read the given character with index 0
+        x.close();
 
         switch(y){
             case "a":

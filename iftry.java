@@ -4,6 +4,7 @@ class iftry{
 		String z,y="saga";
 		Scanner x=new Scanner(System.in);
 		z=x.nextLine();
+		x.close();
 		System.out.println(z+"\n"+y);
 		System.out.println(z==y);
 		if(z==y){
